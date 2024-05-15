@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(238, 237, 237);
+}
+.app {
+  background: rgb(251, 251, 255);
+  margin: 0 auto;
+  max-width: 650px;
+  padding:100px;
+  padding-bottom: 50px ;
+  padding-left: 60px ;
+  padding-right:  90px; ;
+  padding-top: 40px ;
+  box-shadow: 10px 10px 100px 10px rgba(101, 113, 126, 0.651);
+  border-radius: 15px;
+}
+
+.search-form-input {
+  background-color: #f1eff8;
+  border: none;
+  color: rgba(0, 0, 0, 0.925);
+  font-size: 16px;
+  padding: 10px;
+  width: 75%;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px 1px rgb(201, 196, 196);
+  margin-bottom: 50px ;
+  display: inline-block;
+  
+  
+}
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #8a8a97;
+  color: rgb(15, 15, 15);
+  border: none;
+  padding: 10px;
+  line-height: 1;
+  border-radius: 5px;
+  
+}
+.search-button:hover{
+  background-color: #5b5b6b;
+  cursor: pointer;
+  transition: ease-in-out 3ms
+
+}
+.city {
+  font-size: 50px;
+  font-weight: 900;
+  padding-left: 230px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.current-temperature-value {
+  padding-left: 55px;
+  font-size: 70px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  
+}
+
+.current-temperature-unit {
+  font-size: 80px ;
+  
+}
+
+.current-temperature-icon{
+  font-size: 80px;
+  padding-left: 250px;
+
+}
+
+.date{
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 46px;
+  
+}
+
+.description{
+  font-size: 30px;
+  padding-left: 250px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.stagnant-details{
+ 
+  font-size: 25px;
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 444px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #6f6f70;
+}
+
+.footer{
+  font-size: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#forecast {
+  margin-top: 20px;
+  color: #000;
+  display:flex;
+justify-content:space-around;
+  }
+
+.weather-forecast-date{
+  font-size: 16px;
+  opacity: 0.6;
+  font-weight: bold;
+ 
+}
+.weather-forecast-temperature {
+  opacity:0.5;
+  color: rgb(77, 80, 80);
+  padding-left: 20px;
+  
+}
+
+.weather-forecast-temperatures{
+  font-size: 13px;
+  font-weight: bold;
+  
+}
+
+.weather-forecast-icon img{
+  width: 70px;
+padding-right: 10px;
+  
+}
+
+.weather-forecast-day{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 500px;
+  
+}
